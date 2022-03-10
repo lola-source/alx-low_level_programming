@@ -1,3 +1,4 @@
+#!/bin/bash
 /*
  *file:4-puts.c
  *auth:lola-source

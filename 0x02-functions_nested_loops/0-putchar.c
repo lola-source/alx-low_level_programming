@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 /**
  *main -  prints string,followed by a new line

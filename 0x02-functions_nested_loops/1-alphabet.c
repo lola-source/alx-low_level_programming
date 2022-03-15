@@ -1,19 +1,23 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet - entry point
+ *main-entry point
+ *print_alphabet -nested
+ *description: print alphabet with -putchar, followed by a new line
  *
- * description: print alphabet with -putchar, followed by a new line
- *
- * return: void
+ *return: void
  */
-void print_alphabet(void)
+int main(void)
 {
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
+	void print_alphabet(void)
 	{
-		putchar(c);
+		char c;
+		
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			putchar(c);
+		}
+		putchar('\n');
 	}
-	putchar('\n');
+	return(0);
 }
+

@@ -1,3 +1,4 @@
+#!/bin/bash
 0-strcat.c - function that concatenates two strings.
 1-strncat.c - function that concatenates two strings up to n bytes.
 2-strncpy.c - function that copies a string.

@@ -5,7 +5,7 @@
  * @src : param pointer to a char
  * return : return value of dest
  */
-char *strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;

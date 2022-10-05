@@ -1,28 +1,6 @@
 # Search Algorithms
 
-# Learning Objectives
-
-* What is a search algorithm
-* What is a linear search
-* What is a binary search
-* What is the best search algorithm to use depending on your needs
-
-# Tasks
-
-## Linear search
-
-Write a function that searches for a value in an array of integers using the [Linear search algorithm](https://en.wikipedia.org/wiki/Linear_search)
-
-* Prototype: `int linear_search(int *array, size_t size, int value);`
-* Where `array` is a pointer to the first element of the array to search in
-* `size` is the number of elements in `array`
-* And `value` is the value to search for
-* Your function must return the first index where `value` is located
-* If `value` is not present in `array` or if `array` is NULL, your function must return `-1`
-* Every time you compare a value in the array to the value you are searching, you have to print this value (see example below)
-
-**Solution:** [0-linear.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/0-linear.c)
-
+**Solution:** [0-linear.c](https://github.com/lola-source/alx-low_level_programming/blob/master/0x1E-search_algorithms/0-linear.c)
 ```
 $ amonkeyprogrammer@0x1E-search_algorithms$ cat 0-main.c 
 #include <stdio.h>
@@ -71,22 +49,7 @@ Value checked array[8] = [-1]
 Value checked array[9] = [9]
 Found 999 at index: -1
 ```
-
-## Binary search
-
-Write a function that searches for a value in a sorted array of integers using the [Binary search algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm)
-
-* Prototype: `int binary_search(int *array, size_t size, int value);`
-* Where `array` is a pointer to the first element of the array to search in
-* `size` is the number of elements in `array`
-* And ``value` is the value to search for
-* Your function must return the index where `value` is located
-* You can assume that `array` will be sorted in ascending order
-* You can assume that `value` won’t appear more than once in `array`
-* If `value` is not present in `array` or if `array` is `NULL`, your function must return -1
-* You must print the array being searched every time it changes. (e.g. at the beginning and when you search a subarray) (See example)
-
-**Solution:** [1-binary.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/1-binary.c)
+**Solution:** [1-binary.c](https://github.com/lola-source/alx-low_level_programming/blob/master/0x1E-search_algorithms/1-binary.c)
 
 ```
 $ amonkeyprogrammer@0x1E-search_algorithms$ cat 1-main.c 
@@ -134,31 +97,31 @@ Found 999 at index: -1
 
 What is the `time complexity` (worst case) of a linear search in an array of size `n`?
 
-**Solution:** [2-O](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/2-O)
+**Solution:** [2-O](https://github.com/lola-source/alx-low_level_programming/blob/master/0x1E-search_algorithms/2-O)
 
 ## Big O #1
 
 What is the `space complexity` (worst case) of an iterative linear search algorithm in an array of size `n`?
 
-**Solution:** [3-O](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/3-O)
+**Solution:** [3-O](https://github.com/lola-source/alx-low_level_programming/blob/master/0x1E-search_algorithms/3-O)
 
 ## Big O #2
 
 What is the `time complexity` (worst case) of a binary search in an array of size `n`?
 
-**Solution:** [4-O](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/4-O)
+**Solution:** [4-O](https://github.com/lola-source/alx-low_level_programming/blob/master/0x1E-search_algorithms/4-O)
 
 ## Big O #3
 
 What is the `space complexity` (worst case) of a binary search in an array of size `n`?
 
-**Solution:** [5-O](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/5-O)
+**Solution:** [5-O](https://github.com/lola-source/alx-low_level_programming/blob/master/0x1E-search_algorithms/5-O)
 
 ## Big O #4
 
 What is the space complexity of this function / algorithm?
 
-**Solution:** [6-O](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/6-O)
+**Solution:** [6-O](https://github.com/lola-source/alx-low_level_programming/blob/master/0x1E-search_algorithms/6-O)
 
 ```C
 int **allocate_map(int n, int m)
@@ -178,16 +141,16 @@ int **allocate_map(int n, int m)
 
 What is the `time complexity` (average case) of a jump search in an array of size `n`, using `step = sqrt(n)`?
 
-**Solution:** [101-O](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/101-O)
+**Solution:** [101-O](https://github.com/lola-source/alx-low_level_programming/blob/master/0x1E-search_algorithms/101-O)
 
 ## Big O #6
 
 What is the `time complexity` (average case) of a jump search in a singly linked list of size n, using `step = sqrt(n)`?
 
-**Solution:** [107-O](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/107-O)
+**Solution:** [107-O](https://github.com/lola-source/alx-low_level_programming/blob/master/0x1E-search_algorithms/107-O)
 
 ## Big O #7
 
 What is the `time complexity` (average case) of a jump search in a skip list of size n, with an express lane using `step = sqrt(n)`?
 
-**Solution:** [108-O](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x1E-search_algorithms/108-O)
+**Solution:** [108-O](https://github.com/lola-source/alx-low_level_programming/blob/master/0x1E-search_algorithms/108-O)
